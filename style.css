@@ -8,12 +8,12 @@ body{
 #container{
     width: 80%;
     margin: 0px auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 } 
 #header{
-    height: 160px;
-    background-color: rgb(179, 155, 224);
-    color: white;
+    height: 141px;
+    background-color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     line-height: 100px;
 }
@@ -26,15 +26,15 @@ body{
 
 #logo img{
     float: left;
-    height: 100px;
-    margin: 30px;
+    height: 141px;
+    
 }
 
 #menu{
-    background-color: rgb(132, 56, 231);
-    color: white;
+    background-color: rgb(245, 193, 202);
+    color: black;
     height: 50px;
-    border-bottom: 4px solid blueviolet;
+    border-bottom: 4px solid rgb(147, 147, 153);
 }
 #menu ul{
     list-style: none;
@@ -49,7 +49,7 @@ body{
 }
 #menu a{
     display: block;
-    color: rgb(8, 8, 8);
+    color:black;
     text-decoration: none;
     padding-left: 12px;
     padding-right: 12px;
@@ -58,18 +58,48 @@ body{
     background: rgb(243, 184, 228);
 }
 
-#content {
-    margin: opx auto;
-    background: rgb(207, 179, 243);
+#content{
+    margin: 5px auto;
+    
+    background:  green;
+
 
 }
 /*barra lateral*/
 #lateral{
-    width: 20%;
-    border: 1px solid rgb(149, 78, 241);
+    width: 19%;
+    min-height: 650px;
+    border: 1px solid rgb(100, 22, 201);
+    float: left;
+    margin-top: 1px;
+    margin-left: 10px;
+
+
+}
+#lateral .block_aside{
+    display: block;
+    width: 86%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(148, 69, 250);
+}
+
+#lateral h3{
+    display: block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #e1e1e1;
+    border-bottom: 2px solid #01b1ea;
 
 }
 #central{
-    width: 80%;
-    border: 1px solid rgb(126, 42, 236);
+    width: 79%;
+    min-height: 650px;
+    float: right;
+    border: 1px solid rgb(162, 38, 187);
 }
