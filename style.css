@@ -97,9 +97,83 @@ body{
     border-bottom: 2px solid #01b1ea;
 
 }
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid rgb(100, 22, 201);
+    box-shadow: 0px 0px 2px rgb(148, 69, 250);
+    background: rgb(226, 211, 241);
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    transition: all 300ms;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"]:focus{
+    border: 1pxs solid rgb(67, 15, 209);
+    color: black;
+    
+}
+input[type="submit"],
+input[type="button"],
+.button{
+    display: block;
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    background: rgb(235, 202, 202);
+    color: black;
+    border: 1px solid purple;
+    cursor: pointer;
+
+}
 #central{
     width: 79%;
-    min-height: 650px;
+    min-height: 600px;
     float: right;
-    border: 1px solid rgb(162, 38, 187);
+    /*boder:1px solid rgb(126,82,228);*/
+    border-left: 1px solid black;
+    box-shadow: -5px -1px 5px gray;
+    padding: 5px;
+    margin-top: 5px;
+}
+#central h1 {
+    font-size: 24px;
+    font-weight:  normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 0px;
+}
+.product{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.product img{
+    height: 170px;
+    margin-bottom: 10px;
+}
+.product a{
+    color: black;
+    text-decoration: none;
+}
+.product a:hover{
+    color: white;
+}
+#footer{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: royalblue;
+    color: black;
+    border-top: blueviolet;
 }
