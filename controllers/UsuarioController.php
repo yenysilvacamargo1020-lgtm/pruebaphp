@@ -8,9 +8,11 @@ class UsuarioController{
         require_once 'views/usuario/mostrar-todos.php';
     }
     public function crear (){
-        require_once 'views/usuario/crear.php';
+       require_once 'views/usuario/crear.php';
+
         
     }
+    
     
 
 

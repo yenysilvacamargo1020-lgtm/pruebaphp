@@ -6,3 +6,5 @@
 
  $controlador->mostrarTodos();
 
+ $controlador->crear();
+
